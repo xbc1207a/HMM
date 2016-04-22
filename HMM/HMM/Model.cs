@@ -10,7 +10,7 @@ namespace HMM
     {
         private int size = 3;
         private double[,] transferMatrix = new double[3,3];
-
+        // constructor
         public Model()
         {
             for(int i = 0; i < 3; i = i + 1)
@@ -22,5 +22,6 @@ namespace HMM
                 }
             }
         }
+        // methods
     }
 }
