@@ -8,8 +8,8 @@ namespace HMM
 {
     class Model
     {
-        int size = 3;
-        double[,] transferMatrix = new double[3,3];
+        private int size = 3;
+        private double[,] transferMatrix = new double[3,3];
 
         public Model()
         {
