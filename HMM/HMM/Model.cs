@@ -10,6 +10,8 @@ namespace HMM
     {
         private int size = 3;
         private double[,] transferMatrix = new double[3,3];
+        private double[,] a = new double[3, 3];
+        private double[,] b = new double[3, 3];
         // constructor
         public Model()
         {
