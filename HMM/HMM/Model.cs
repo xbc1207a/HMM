@@ -26,5 +26,10 @@ namespace HMM
             }
         }
         // methods
+        public double GetProbability(string s)
+        {
+            double p = 0;
+            for()
+        }
     }
 }
