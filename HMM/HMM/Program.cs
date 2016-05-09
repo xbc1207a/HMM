@@ -10,6 +10,12 @@ namespace HMM
     {
         static void Main(string[] args)
         {
+            Model HMM = new Model();
+
+            HMM.PrintAMatrix();
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }
