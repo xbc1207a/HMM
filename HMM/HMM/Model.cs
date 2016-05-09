@@ -33,10 +33,9 @@ namespace HMM
                     }
                 }
             }
-            for(int i = 0; i < this.size; i = i + 1)
-            {
-                start[i] = 'A' + i;
-            }
+            state[0] = 'A';
+            state[1] = 'B';
+            state[2] = 'C';
         }
         // methods
         /*public double GetProbability(string s)
