@@ -53,6 +53,7 @@ namespace HMM
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine();
         }
         public void PrintBMatrix()
         {
@@ -64,6 +65,7 @@ namespace HMM
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine();
         }
         public void PrintState()
         {
@@ -71,6 +73,7 @@ namespace HMM
             {
                 Console.Write("state[" + i + "]=" + state[i] + " ");
             }
+            Console.WriteLine();
             Console.WriteLine();
         }
     }
