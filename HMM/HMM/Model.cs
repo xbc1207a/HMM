@@ -45,7 +45,7 @@ namespace HMM
             {
                 for(int j = 0; j < this.size; j = j + 1)
                 {
-                    Console.Write("a["+i+","+"]="+a[i, j] + " ");
+                    Console.Write("a["+i+","+j+"]="+a[i, j] + " ");
                 }
                 Console.WriteLine();
             }
@@ -56,7 +56,7 @@ namespace HMM
             {
                 for (int j = 0; j < this.size; j = j + 1)
                 {
-                    Console.Write("b[" + i + "," + "]=" + b[i, j] + " ");
+                    Console.Write("b[" + i + "," + j+"]=" + b[i, j] + " ");
                 }
                 Console.WriteLine();
             }
