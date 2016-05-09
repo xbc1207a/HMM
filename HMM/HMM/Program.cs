@@ -13,6 +13,7 @@ namespace HMM
             Model HMM = new Model();
 
             HMM.PrintAMatrix();
+            HMM.PrintBMatrix();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
