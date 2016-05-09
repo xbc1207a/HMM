@@ -43,6 +43,7 @@ namespace HMM
             double p = 0;
             for()
         }*/
+        // the print methods
         public void PrintAMatrix()
         {
             for(int i = 0; i < this.size; i = i + 1)
