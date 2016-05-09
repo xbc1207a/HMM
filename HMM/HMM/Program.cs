@@ -12,6 +12,7 @@ namespace HMM
         {
             Model HMM = new Model();
 
+            HMM.PrintState();
             HMM.PrintAMatrix();
             HMM.PrintBMatrix();
 
