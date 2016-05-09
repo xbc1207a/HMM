@@ -20,8 +20,16 @@ namespace HMM
             {
                 for(int j = 0; j < 3; j = j + 1)
                 {
-                    if (i == j) a[i, j] = 0.34;
-                    else a[i, j] = 0.33;
+                    if (i == j)
+                    {
+                        a[i, j] = 0.34;
+                        b[i, j] = 0.34;
+                    }
+                    else
+                    {
+                        a[i, j] = 0.33;
+                        b[i, j] = 0.33;
+                    }
                 }
             }
         }
@@ -38,6 +46,17 @@ namespace HMM
                 for(int j = 0; j < this.size; j = j + 1)
                 {
                     Console.Write("a["+i+","+"]="+a[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+        public void PrintBMatrix()
+        {
+            for (int i = 0; i < this.size; i = i + 1)
+            {
+                for (int j = 0; j < this.size; j = j + 1)
+                {
+                    Console.Write("b[" + i + "," + "]=" + b[i, j] + " ");
                 }
                 Console.WriteLine();
             }
