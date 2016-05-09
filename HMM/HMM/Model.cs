@@ -17,6 +17,7 @@ namespace HMM
         // constructor
         public Model()
         {
+            // initialize the a matrix and b matrix
             for(int i = 0; i < 3; i = i + 1)
             {
                 for(int j = 0; j < 3; j = j + 1)
@@ -33,6 +34,7 @@ namespace HMM
                     }
                 }
             }
+            // initialize the state
             state[0] = 'A';
             state[1] = 'B';
             state[2] = 'C';
