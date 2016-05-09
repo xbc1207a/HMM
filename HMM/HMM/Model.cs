@@ -13,6 +13,7 @@ namespace HMM
         private double[,] a = new double[3, 3];
         private double[,] b = new double[3, 3];
         private double[] start = new double[3];
+        private char[] state = new char[3];
         // constructor
         public Model()
         {
@@ -31,6 +32,10 @@ namespace HMM
                         b[i, j] = 0.33;
                     }
                 }
+            }
+            for(int i = 0; i < this.size; i = i + 1)
+            {
+                start[i] = 'A' + i;
             }
         }
         // methods
@@ -60,6 +65,14 @@ namespace HMM
                 }
                 Console.WriteLine();
             }
+        }
+        public void PrintState()
+        {
+            for(int i = 0; i < this.size; i = i + 1)
+            {
+                Console.Write("state[" + i + "]=" + state[i] + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
