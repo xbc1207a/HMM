@@ -38,6 +38,10 @@ namespace HMM
             state[0] = 'A';
             state[1] = 'B';
             state[2] = 'C';
+            // initialize the start array
+            start[0] = 0.33;
+            start[1] = 0.33;
+            start[2] = 0.34;
         }
         // methods
         /*public double GetProbability(string s)
