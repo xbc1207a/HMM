@@ -54,7 +54,7 @@ namespace HMM
                 {
                     if (s[i] == state[j])
                     {
-                        temp = temp + state[j];
+                        temp = temp + j;
                         break;
                     }
                 }
