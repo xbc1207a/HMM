@@ -45,6 +45,22 @@ namespace HMM
             double p = 0;
             for()
         }*/
+        public string ChangeToIndex(string s)
+        {
+            string temp = null;
+            for(int i = 0; i < s.Length; i = i + 1)
+            {
+                for(int j = 0; j < this.size; j = j + 1)
+                {
+                    if (s[i] == state[j])
+                    {
+                        temp = temp + state[j];
+                        break;
+                    }
+                }
+            }
+            return temp;
+        }
         // the print methods
         public void PrintAMatrix()
         {
